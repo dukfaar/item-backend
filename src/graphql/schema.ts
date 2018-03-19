@@ -3,7 +3,7 @@ import * as _ from 'lodash'
 
 import getProjection from './getProjection'
 
-import typeDefs from './typedefs'
+import typeDefs from './typeDefs'
 import queryResolvers from './queryResolvers'
 import mutationResolvers from './mutationResolvers' 
 
