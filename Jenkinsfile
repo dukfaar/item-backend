@@ -25,7 +25,9 @@ pipeline {
 
     stage('Build Docker Image') { 
       steps {
-	docker.build('dukfaar/item-backend')
+        script {
+          docker.build('dukfaar/item-backend')
+        }
       }
     }      
   }
