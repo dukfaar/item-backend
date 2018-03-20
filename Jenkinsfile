@@ -22,5 +22,11 @@ pipeline {
         sh 'npm run build' 
       }
     }      
+
+    stage('Build Docker Image') { 
+      steps {
+	docker.build('dukfaar/item-backend')
+      }
+    }      
   }
 }
