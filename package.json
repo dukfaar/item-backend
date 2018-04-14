@@ -6,8 +6,9 @@
   "scripts": {
     "build": "tsc",
     "tsc": "tsc",
-    "start": "node dist",
-    "test": "mocha -r ts-node/register src/**/*.test.ts"
+    "start": "node dist/src",
+    "test": "mocha -r ts-node/register src/**/*.test.ts",
+    "local-dev": "export DB_HOST=localhost; npm run build && npm start"
   },
   "repository": {
     "type": "git",
@@ -31,7 +32,8 @@
     "body-parser": "latest",
     "apollo-link": "latest",
     "typescript": "^2.7.1",
-    "ts-node": "latest"
+    "ts-node": "latest",
+    "backend-utilities": "github:dukfaar/backend-utilities"
   },
   "devDependencies": {
     "@types/mocha": "latest",

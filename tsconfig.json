@@ -13,10 +13,10 @@
     "./node_modules/@types/node/index.d.ts"
   ],
   "include": [
-    "src/**/*.ts"
+    "src/**/*.ts",
+    "node_modules/backend-utilities/**/*.ts"
   ],
   "exclude": [
-    "node_modules",
     "src/**/*.test.ts"
   ]
 }
