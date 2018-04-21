@@ -6,15 +6,15 @@
     "sourceMap": true,
     "lib": [
       "esnext",
-      "esnext.asynciterable"
+      "esnext.asynciterable",
+      "dom"
     ],
   },
   "files": [
     "./node_modules/@types/node/index.d.ts"
   ],
   "include": [
-    "src/**/*.ts",
-    "node_modules/backend-utilities/**/*.ts"
+    "src/**/*.ts"
   ],
   "exclude": [
     "src/**/*.test.ts"
