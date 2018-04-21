@@ -1,8 +1,7 @@
 import { makeExecutableSchema } from 'graphql-tools'
 import * as _ from 'lodash'
 
-import getProjection from 'backend-utilities/getProjection'
-import getProjectionForPath from 'backend-utilities/getProjectionForPath'
+import {getProjection, getProjectionForPath} from 'backend-utilities'
 
 import typeDefs from './typeDefs'
 import queryResolvers from './queryResolvers'

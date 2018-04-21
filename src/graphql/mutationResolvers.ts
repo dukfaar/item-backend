@@ -1,8 +1,10 @@
 import * as _ from 'lodash'
 import * as Promise from 'bluebird'
 
-import createType from 'backend-utilities/mongooseCreateType'
-import updateType from 'backend-utilities/mongooseUpdateType' 
+import {
+  mongooseCreateType as createType,
+  mongooseUpdateType as updateType 
+} from 'backend-utilities'
   
 import { Item } from '../model/item'
   

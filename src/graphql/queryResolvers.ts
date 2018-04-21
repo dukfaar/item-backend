@@ -1,6 +1,6 @@
 import { Item } from '../model/item'
 
-import getProjection from 'backend-utilities/getProjection'
+import { getProjection } from 'backend-utilities'
 
 import * as _ from 'lodash'
 
